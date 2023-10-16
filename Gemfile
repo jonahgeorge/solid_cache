@@ -7,6 +7,7 @@ gemspec
 gem "sqlite3"
 gem "mysql2"
 gem "pg"
+gem "activerecord-sqlserver-adapter"
 
 gem "sprockets-rails"
 

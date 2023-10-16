@@ -263,6 +263,7 @@ Next, setup the database schema:
 ```shell
 $ TARGET_DB=mysql bin/rails db:setup
 $ TARGET_DB=postgres bin/rails db:setup
+$ TARGET_DB=mssql bin/rails db:setup
 ```
 
 
@@ -271,6 +272,7 @@ Then run the tests for the target database:
 ```shell
 $ TARGET_DB=mysql bin/rails test
 $ TARGET_DB=postgres bin/rails test
+$ TARGET_DB=mssql bin/rails test
 ```
 
 ## License
